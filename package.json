@@ -1,0 +1,32 @@
+{
+  "name": "verata",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "2.1.8",
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "next": "^14.0.4",
+    "postcss": "^8.4.32",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.6",
+    "swiper": "^11.1.14",
+    "tailwindcss": "^3.4.0",
+    "typescript": "5.3.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
