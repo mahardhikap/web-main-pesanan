@@ -13,7 +13,7 @@ const DetailCatalog: React.FC<{ data: ProductI }> = ({ data }) => {
 
   const handleOrderClick = (name: string) => {
     const message = `Halo admin, saya mau pesan ${name}. Yang tertera di https://girls-beauty-store.vercel.app/${data.id}`;
-    const whatsappUrl = `https://wa.me/+6287878780251?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/+6282111425327?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");
