@@ -5,6 +5,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'image.codefreaks.web.id',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'asset.codefreaks.web.id',
         port: '',
         pathname: '/**',
