@@ -38,6 +38,7 @@ const CatalogPage: React.FC = () => {
   const [products, setProducts] = useState<FilterCatalogResI | undefined>(
     undefined
   );
+  console.log(products)
   const [searchInput, setSearchInput] = useState<string>("");
   const [category, setCategory] = useState<CategoryListI[]>();
   const [loading, setLoading] = useState<boolean>(true);
